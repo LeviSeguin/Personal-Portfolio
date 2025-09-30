@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url(images/space-background1.jpg);
+  max-width: 100%;
+  background-size: stretch;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+html{
+  height: 100%
+}
+
+#main {
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+  padding: 10px;
+  min-width: 485px;
+  max-width: 1000px;
+  min-height: 100vh;
+}
+
+#title {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  padding: 0;
+  margin: 1rem;
+}
+
+figure {
+  padding: 0;
+  margin: 0 -10px;
+}
+
+#img-div {
+  text-align: center;
+  min-width: 300px;
+  background-color: #111;
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+
+#image {
+  border-radius: 3px;
+  width: 100%;
+  /*max-width: 100%;  just to pass tests, comment out after */
+  max-width: 800px;
+  min-width: 300px;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  display: block;
+}
+
+#img-caption {
+  padding-bottom: 0.5em;
+}
+
+.link {
+  color: grey;
+}
+
+.link:hover {
+  color: white;
+}
+
+
+#tribute-info {
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+#tribute-list-div {
+  text-align: left;
+  background-color: #111;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0px;
+  line-height: 1.5;
+}
+
+#tribute-list-div li {
+  padding: 10px 0;
+}
+
+
+
