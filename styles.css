@@ -2,8 +2,8 @@
     --color1: #003268;
     --color2: #79baff;
 
-    --text-color1: white;
-    --text-color2: black;
+    --text-color1: #fff;
+    --text-color2: #000;
 
     --header-height: 5rem;
 
@@ -76,7 +76,7 @@ header {
 
 #navbar li a:hover {
     background-color: var(--color2);
-    color: var(--text-color-2);
+    color: var(--text-color2);
 }
 
 @media (max-width: 45rem) {
@@ -99,7 +99,7 @@ header {
         padding: unset;
         font-size: 1.5rem;
         text-decoration: none;
-        color: black;
+        color: var(--text-color1);
     }
 
     html::-webkit-scrollbar {
